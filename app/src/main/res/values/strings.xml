@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginForm</string>
+    <string name="login_admin">Login Admin</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="welcome_to_the_admin_dashboard">Welcome to the Admin Dashboard</string>
+    <string name="welcome_to_your_dashboard_you_can_manage_your_settings_and_view_reports_here">Welcome to your dashboard! You can manage your settings and view reports here.</string>
+    <string name="view_profile">View Profile</string>
+    <string name="view_info">View Info</string>
+</resources>
