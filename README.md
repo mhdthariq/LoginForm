@@ -24,7 +24,7 @@ This is a simple Android application that demonstrates a basic login functionali
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/login-form-app.git
+   git clone https://github.com/mhdthariq/LoginForm.git
 
 2. **Open the project** in Android Studio.
 
