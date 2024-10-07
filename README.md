@@ -11,7 +11,7 @@ This is a simple Android application that demonstrates a basic login functionali
 
 ## Screenshots
 
-![Screenshot](image/untitled.png)
+<img src="image/untitled.png" alt="Screenshot" style="max-width: 100%; height: auto;">
 
 ## Technologies Used
 
