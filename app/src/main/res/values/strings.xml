@@ -4,8 +4,9 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
-    <string name="welcome_to_the_admin_dashboard">Welcome to the Admin Dashboard</string>
-    <string name="welcome_to_your_dashboard_you_can_manage_your_settings_and_view_reports_here">Welcome to your dashboard! You can manage your settings and view reports here.</string>
-    <string name="view_profile">View Profile</string>
-    <string name="view_info">View Info</string>
+    <string name="program_menghitung_volume_tabung">Program Menghitung Volume Tabung</string>
+    <string name="masukkan_jari_jari_cm">Masukkan Jari-Jari (cm)</string>
+    <string name="masukkan_tinggi_cm">Masukkan Tinggi (cm)</string>
+    <string name="hitung_volume">Hitung Volume</string>
+    <string name="volume_tabung">Volume Tabung:</string>
 </resources>

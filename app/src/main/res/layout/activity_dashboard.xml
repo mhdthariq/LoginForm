@@ -9,51 +9,45 @@
     android:gravity="center"
     tools:context=".DashboardActivity">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/tvDashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/program_menghitung_volume_tabung"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etRadius"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/card_background"
-        android:padding="16dp"
-        android:orientation="vertical">
+        android:hint="@string/masukkan_jari_jari_cm"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
 
-        <TextView
-            android:id="@+id/tvDashboardTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/welcome_to_the_admin_dashboard"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/masukkan_tinggi_cm"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
 
-        <TextView
-            android:id="@+id/tvWelcomeMessage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/welcome_to_your_dashboard_you_can_manage_your_settings_and_view_reports_here"
-            android:textSize="16sp"
-            android:textColor="@android:color/darker_gray"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung_volume"
+        android:layout_marginBottom="16dp" />
 
-        <Button
-            android:id="@+id/btnProfile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/view_profile"
-            android:textColor="@android:color/white"
-            android:background="@drawable/button_background"
-            android:padding="12dp"/>
-
-        <Button
-            android:id="@+id/btnInfo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/view_info"
-            android:textColor="@android:color/white"
-            android:background="@drawable/button_background"
-            android:padding="12dp"
-            android:layout_marginTop="8dp"/>
-    </LinearLayout>
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volume_tabung"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
 
 </LinearLayout>
